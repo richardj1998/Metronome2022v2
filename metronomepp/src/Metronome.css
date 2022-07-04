@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+}
+body{
+height: 100%;
+margin: 0;
+text-align: center;
+background:white;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.metronome button {
+  background: cyan;
+  padding: 10px;
+  margin-right: 10px;
+  border: 20px solid cyan;
+  border-radius: 20px;
+  width: 150px;
+  color:black;
+  font-size: 18px;
+}
+.metronome{
+  padding: 2em;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 1em;
+}
+
+.bpm{
+  font: 3em Helvetica;
+}
+
+
+.plusMinus{
+  height: 3em;
+  margin: 0em 1em;
+  opacity: 0.8;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
